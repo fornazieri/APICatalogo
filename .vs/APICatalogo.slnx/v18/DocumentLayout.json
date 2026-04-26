@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "D:\\Estudos\\C#\\APICatalogo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|d:\\estudos\\c#\\apicatalogo\\apicatalogo\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|d:\\estudos\\c#\\apicatalogo\\apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|d:\\estudos\\c#\\apicatalogo\\apicatalogo\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|d:\\estudos\\c#\\apicatalogo\\apicatalogo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|d:\\estudos\\c#\\apicatalogo\\apicatalogo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|d:\\estudos\\c#\\apicatalogo\\apicatalogo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|d:\\estudos\\c#\\apicatalogo\\apicatalogo\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|d:\\estudos\\c#\\apicatalogo\\apicatalogo\\validations\\primeiraletramaiusculaattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\validations\\primeiraletramaiusculaattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|d:\\estudos\\c#\\apicatalogo\\apicatalogo\\apicatalogo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\apicatalogo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|d:\\estudos\\c#\\apicatalogo\\apicatalogo\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|d:\\estudos\\c#\\apicatalogo\\apicatalogo\\services\\meuservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\services\\meuservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|d:\\estudos\\c#\\apicatalogo\\apicatalogo\\services\\imeuservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51EBD5A0-FA71-BF41-FADA-815DEE748B54}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\services\\imeuservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +66,145 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\appsettings.json",
+              "RelativeDocumentMoniker": "APICatalogo\\appsettings.json",
+              "ToolTip": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\appsettings.json",
+              "RelativeToolTip": "APICatalogo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-26T11:46:41.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "APICatalogo\\Controllers\\CategoriasController.cs",
+              "ToolTip": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "APICatalogo\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:40:38.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\Program.cs",
+              "RelativeDocumentMoniker": "APICatalogo\\Program.cs",
+              "ToolTip": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\Program.cs",
+              "RelativeToolTip": "APICatalogo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:39:32.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "APICatalogo\\appsettings.Development.json",
+              "ToolTip": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\appsettings.Development.json",
+              "RelativeToolTip": "APICatalogo\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-26T18:13:24.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "APICatalogo\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\Properties\\launchSettings.json",
+              "RelativeToolTip": "APICatalogo\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-26T18:10:22.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "APICatalogo\\Models\\Produto.cs",
+              "ToolTip": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\Models\\Produto.cs",
+              "RelativeToolTip": "APICatalogo\\Models\\Produto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwBMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:54:38.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PrimeiraLetraMaiusculaAttribute.cs",
+              "DocumentMoniker": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\Validations\\PrimeiraLetraMaiusculaAttribute.cs",
+              "RelativeDocumentMoniker": "APICatalogo\\Validations\\PrimeiraLetraMaiusculaAttribute.cs",
+              "ToolTip": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\Validations\\PrimeiraLetraMaiusculaAttribute.cs",
+              "RelativeToolTip": "APICatalogo\\Validations\\PrimeiraLetraMaiusculaAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T17:05:14.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "APICatalogo",
+              "DocumentMoniker": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\APICatalogo.csproj",
+              "RelativeDocumentMoniker": "APICatalogo\\APICatalogo.csproj",
+              "ToolTip": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\APICatalogo.csproj",
+              "RelativeToolTip": "APICatalogo\\APICatalogo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-26T17:04:43.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MeuServico.cs",
+              "DocumentMoniker": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\Services\\MeuServico.cs",
+              "RelativeDocumentMoniker": "APICatalogo\\Services\\MeuServico.cs",
+              "ToolTip": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\Services\\MeuServico.cs",
+              "RelativeToolTip": "APICatalogo\\Services\\MeuServico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:38:24.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ProdutosController.cs",
               "DocumentMoniker": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\Controllers\\ProdutosController.cs",
               "RelativeDocumentMoniker": "APICatalogo\\Controllers\\ProdutosController.cs",
               "ToolTip": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\Controllers\\ProdutosController.cs",
               "RelativeToolTip": "APICatalogo\\Controllers\\ProdutosController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAEwDYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-26T14:09:19.515Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\appsettings.json",
-              "RelativeDocumentMoniker": "APICatalogo\\appsettings.json",
-              "ToolTip": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\appsettings.json",
-              "RelativeToolTip": "APICatalogo\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-26T11:46:41.898Z",
+              "DocumentIndex": 10,
+              "Title": "IMeuServico.cs",
+              "DocumentMoniker": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\Services\\IMeuServico.cs",
+              "RelativeDocumentMoniker": "APICatalogo\\Services\\IMeuServico.cs",
+              "ToolTip": "D:\\Estudos\\C#\\APICatalogo\\APICatalogo\\Services\\IMeuServico.cs",
+              "RelativeToolTip": "APICatalogo\\Services\\IMeuServico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:37:53.809Z",
               "EditorCaption": ""
             }
           ]

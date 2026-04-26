@@ -1,5 +1,6 @@
 ﻿using APICatalogo.Context;
 using APICatalogo.Models;
+using APICatalogo.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,9 +11,34 @@ namespace APICatalogo.Controllers;
 public class CategoriasController : ControllerBase
 {
     private readonly AppDbContext _context;
-    public CategoriasController(AppDbContext context)
+    private readonly IConfiguration _configuration;
+    public CategoriasController(AppDbContext context, IConfiguration configuration)
     {
         _context = context;
+        _configuration = configuration;
+    }
+
+    [HttpGet("LerArquivoConfiguracao")]
+    public string GetValores()
+    {
+        var valor1 = _configuration["chave1"];
+        var valor2 = _configuration["chave2"];
+
+        var secao1 = _configuration["secao1:chave1"];
+
+        return $"Chave1 = {valor1} \nChave2 = {valor2} \nSeção1 => Chave2 = {secao1}";
+    }
+
+    [HttpGet("UsandoFromServices/{nome}")]
+    public ActionResult<string> GetSaudacaoFromServices([FromServices] IMeuServico meuServico, string nome)
+    {
+        return meuServico.Saudacao(nome);
+    }
+
+    [HttpGet("SemUsarFromServices/{nome}")]
+    public ActionResult<string> GetSaudacaoSemFromServices(IMeuServico meuServico, string nome)
+    {
+        return meuServico.Saudacao(nome);
     }
 
     [HttpGet("produtos")]

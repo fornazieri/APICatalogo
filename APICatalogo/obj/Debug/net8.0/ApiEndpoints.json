@@ -37,6 +37,78 @@
   },
   {
     "ContainingType": "APICatalogo.Controllers.CategoriasController",
+    "Method": "GetValores",
+    "RelativePath": "Categorias/LerArquivoConfiguracao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APICatalogo.Controllers.CategoriasController",
+    "Method": "GetSaudacaoSemFromServices",
+    "RelativePath": "Categorias/SemUsarFromServices/{nome}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APICatalogo.Controllers.CategoriasController",
+    "Method": "GetSaudacaoFromServices",
+    "RelativePath": "Categorias/UsandoFromServices/{nome}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APICatalogo.Controllers.CategoriasController",
     "Method": "GetCategoriasProdutos",
     "RelativePath": "Categorias/produtos",
     "HttpMethod": "GET",
@@ -120,9 +192,30 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "APICatalogo.Controllers.ProdutosController",
+    "ContainingType": "APICatalogo.Controllers.WeatherForecastController",
     "Method": "Get",
-    "RelativePath": "Produtos",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[APICatalogo.WeatherForecast, APICatalogo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  },
+  {
+    "ContainingType": "API.Controllers.ProdutosController",
+    "Method": "Get2",
+    "RelativePath": "api/Produtos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -140,9 +233,9 @@
     ]
   },
   {
-    "ContainingType": "APICatalogo.Controllers.ProdutosController",
+    "ContainingType": "API.Controllers.ProdutosController",
     "Method": "Post",
-    "RelativePath": "Produtos",
+    "RelativePath": "api/Produtos",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -156,9 +249,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "APICatalogo.Controllers.ProdutosController",
+    "ContainingType": "API.Controllers.ProdutosController",
     "Method": "Get",
-    "RelativePath": "Produtos/{id}",
+    "RelativePath": "api/Produtos/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -183,9 +276,9 @@
     "EndpointName": "ObterProduto"
   },
   {
-    "ContainingType": "APICatalogo.Controllers.ProdutosController",
+    "ContainingType": "API.Controllers.ProdutosController",
     "Method": "Put",
-    "RelativePath": "Produtos/{id}",
+    "RelativePath": "api/Produtos/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -204,9 +297,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "APICatalogo.Controllers.ProdutosController",
+    "ContainingType": "API.Controllers.ProdutosController",
     "Method": "Delete",
-    "RelativePath": "Produtos/{id}",
+    "RelativePath": "api/Produtos/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -218,26 +311,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "APICatalogo.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[APICatalogo.WeatherForecast, APICatalogo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]

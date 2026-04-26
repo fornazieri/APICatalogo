@@ -5,6 +5,115 @@
     "version": "1.0"
   },
   "paths": {
+    "/Categorias/LerArquivoConfiguracao": {
+      "get": {
+        "tags": [
+          "Categorias"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Categorias/UsandoFromServices/{nome}": {
+      "get": {
+        "tags": [
+          "Categorias"
+        ],
+        "parameters": [
+          {
+            "name": "nome",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Categorias/SemUsarFromServices/{nome}": {
+      "get": {
+        "tags": [
+          "Categorias"
+        ],
+        "parameters": [
+          {
+            "name": "nome",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/Categorias/produtos": {
       "get": {
         "tags": [
@@ -215,7 +324,7 @@
         }
       }
     },
-    "/Produtos": {
+    "/api/Produtos": {
       "get": {
         "tags": [
           "Produtos"
@@ -282,7 +391,7 @@
         }
       }
     },
-    "/Produtos/{id}": {
+    "/api/Produtos/{id}": {
       "get": {
         "tags": [
           "Produtos"
@@ -295,6 +404,7 @@
             "required": true,
             "style": "simple",
             "schema": {
+              "minimum": 1,
               "type": "integer",
               "format": "int32"
             }
@@ -467,16 +577,18 @@
             "format": "int32"
           },
           "nome": {
-            "maxLength": 80,
-            "minLength": 0,
+            "maxLength": 20,
+            "minLength": 5,
             "type": "string"
           },
           "descricao": {
-            "maxLength": 300,
+            "maxLength": 50,
             "minLength": 0,
             "type": "string"
           },
           "preco": {
+            "maximum": 10000,
+            "minimum": 1,
             "type": "number",
             "format": "double"
           },
