@@ -33,4 +33,24 @@ dotnet ef database update
 - Tipos de retorno
   - Entendimento sobre retornos `ActionResult` e `IActionResult`
   - Permitem retornos específicos de uma API REST, mas também possibilitam retornar tipos próprios (como Models da aplicação), facilitando a serialização dos dados
-- Métodos Action assíncronos
+- Métodos Action assíncronos (async e await) retorando Task
+- Model Binding
+  - [BindRequired] para obrigar o binding do nome dos atributos
+  - [BindNever] utilizado no atributo no modelo, para ignorar o binding do atributo
+  - Outros exemplos de anotações de model binding
+    - FromForm - Utilize somente os dados recebidos do formulário enviado.
+    - FromRoute - Vincula apenas os dados que são oriundos da rota de dados.
+    - FromQuery - Recebe apenas os dados da cadeia de consulta (querystring).
+    - FromHeader - Vincula os valores que vêm no cabeçalho da requisição HTTP.
+    - FromBody - Vincula os dados a partir do Body do request.
+    - FromServices - Vincula o valor especificado à implementação que foi configurada no seu container de injeção de dependência.
+  - Injeção de dependencia nos controllers do [FromServices] antes e depois do .net 7
+  - Data Annotations
+  - Validação de atributos do Modelo por Data Annotations
+  - Validação personalizada
+    - Anotação personalizada utilizando Validations com uma classe sendo usada como Attribute
+    - Validação com IValidatableObject
+  - Modelos de Configuração e leitura dos mesmos
+    - Possibilidade de varios arquivos appsetting.json para diversos ambientes, como produção, development, staging... Sendo manipulado pela variavel ASPNETCORE_ENVIRONMENT
+    - Utilização da interface IConfiguration para leitura de configurações
+    - Leitura de configurações no Program.cs atraves do builder
