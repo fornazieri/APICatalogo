@@ -298,3 +298,4 @@ D:\Estudos\C#\APICatalogo\APICatalogo\obj\Debug\net8.0\refint\APICatalogo.dll
 D:\Estudos\C#\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.pdb
 D:\Estudos\C#\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.genruntimeconfig.cache
 D:\Estudos\C#\APICatalogo\APICatalogo\obj\Debug\net8.0\ref\APICatalogo.dll
+D:\Estudos\C#\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
