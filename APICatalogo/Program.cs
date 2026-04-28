@@ -1,4 +1,6 @@
 using APICatalogo.Context;
+using APICatalogo.Extensions;
+using APICatalogo.Filters;
 using APICatalogo.Services;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
@@ -25,6 +27,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddTransient<IMeuServico, MeuServico>();
 
+builder.Services.AddScoped<ApiLoggingFilter>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -32,9 +36,11 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.ConfigureExceptionHandler();
 }
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
+
 app.Run();
