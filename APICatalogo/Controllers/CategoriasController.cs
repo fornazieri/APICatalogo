@@ -13,10 +13,12 @@ public class CategoriasController : ControllerBase
 {
     private readonly AppDbContext _context;
     private readonly IConfiguration _configuration;
-    public CategoriasController(AppDbContext context, IConfiguration configuration)
+    private readonly ILogger _logger;
+    public CategoriasController(AppDbContext context, IConfiguration configuration, ILogger<CategoriasController> logger)
     {
         _context = context;
         _configuration = configuration;
+        _logger = logger;
     }
 
     [HttpGet("LerArquivoConfiguracao")]
@@ -47,6 +49,9 @@ public class CategoriasController : ControllerBase
     {
         try
         {
+            _logger.LogInformation("------------------- GET api/categorias/produtos -------------------");
+            _logger.LogInformation("Obtendo categorias e produtos...");
+
             return await _context.Categorias.Include(p => p.Produtos).ToListAsync();
         }
         catch (Exception)
@@ -84,10 +89,12 @@ public class CategoriasController : ControllerBase
 
         try
         {
+            _logger.LogInformation($"------------------- GET api/categorias/id = {id} -------------------");
             var categoria = _context.Categorias.FirstOrDefault(p => p.CategoriaId == id);
 
             if (categoria == null)
             {
+                _logger.LogWarning($"------------------- Categoria com id= {id} não encontrada... -------------------");
                 return NotFound($"Categoria com id= {id} não encontrada...");
             }
             return Ok(categoria);
