@@ -45,12 +45,16 @@ dotnet ef database update
     - FromBody - Vincula os dados a partir do Body do request.
     - FromServices - Vincula o valor especificado à implementação que foi configurada no seu container de injeção de dependência.
   - Injeção de dependencia nos controllers do [FromServices] antes e depois do .net 7
-  - Data Annotations
+- Data Annotations
   - Validação de atributos do Modelo por Data Annotations
-  - Validação personalizada
-    - Anotação personalizada utilizando Validations com uma classe sendo usada como Attribute
-    - Validação com IValidatableObject
-  - Modelos de Configuração e leitura dos mesmos
-    - Possibilidade de varios arquivos appsetting.json para diversos ambientes, como produção, development, staging... Sendo manipulado pela variavel ASPNETCORE_ENVIRONMENT
-    - Utilização da interface IConfiguration para leitura de configurações
-    - Leitura de configurações no Program.cs atraves do builder
+- Validação personalizada
+  - Anotação personalizada utilizando Validations com uma classe sendo usada como Attribute
+  - Validação com IValidatableObject
+- Modelos de Configuração e leitura dos mesmos
+  - Possibilidade de varios arquivos appsetting.json para diversos ambientes, como produção, development, staging... Sendo manipulado pela variavel ASPNETCORE_ENVIRONMENT
+  - Utilização da interface IConfiguration para leitura de configurações
+  - Leitura de configurações no Program.cs atraves do builder
+- Middleware
+  - Utilização de Middleware para tratamento global de exceptions
+- Filtros no conceito de uma aplicação .net core, para executar codigos personalizados antes ou depois de métodos Action
+  - Exemplo de implementação de classe com IActionFilter para implementar ILogger e gerar Logs da aplicação antes e depois das Actions executarem
