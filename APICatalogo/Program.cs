@@ -8,11 +8,15 @@ using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//configurando o serviço de controle para ignorar referências cíclicas
-builder.Services.AddControllers()
-      .AddJsonOptions(options =>
-         options.JsonSerializerOptions
-            .ReferenceHandler = ReferenceHandler.IgnoreCycles);
+
+builder.Services.AddControllers(options =>
+{
+    options.Filters.Add<ApiExceptionFilter>(); //adicionando o filtro de tratamento global de exceções para a API
+})
+.AddJsonOptions(options => //configurando o serviço de controle para ignorar referências cíclicas
+     options.JsonSerializerOptions
+    .ReferenceHandler = ReferenceHandler.IgnoreCycles
+    );
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
