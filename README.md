@@ -58,3 +58,7 @@ dotnet ef database update
   - Utilização de Middleware para tratamento global de exceptions
 - Filtros no conceito de uma aplicação .net core, para executar codigos personalizados antes ou depois de métodos Action
   - Exemplo de implementação de classe com IActionFilter para implementar ILogger e gerar Logs da aplicação antes e depois das Actions executarem
+- Logging
+  - Utilizando instancia da interface ILogger
+  - Implementação customizada de Logger que salva logs em arquivos .txt
+- Filtro personalizado de exceções implementando IExceptionFilter
