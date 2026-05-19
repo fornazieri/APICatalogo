@@ -62,3 +62,4 @@ dotnet ef database update
   - Utilizando instancia da interface ILogger
   - Implementação customizada de Logger que salva logs em arquivos .txt
 - Filtro personalizado de exceções implementando IExceptionFilter
+- Padrão Repository (Estudando)
