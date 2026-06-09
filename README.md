@@ -62,6 +62,11 @@ dotnet ef database update
   - Utilizando instancia da interface ILogger
   - Implementação customizada de Logger que salva logs em arquivos .txt
 - Filtro personalizado de exceções implementando IExceptionFilter
-- Padrão de projeto Repository
-  - Implementação de Interface com métodos abstratos, para fornecer ao repository e separar do Controller, os métodos de acesso ao banco de dados
-  - Retorno de IEnumerable e IQueryable
+- Padrão de projeto Repository  
+  - Repositórios Especificos
+    - Implementação de Interface com métodos abstratos, para fornecer ao repository e separar do Controller, os métodos de acesso ao banco de dados
+    - Retorno de IEnumerable e IQueryable
+  - Repositórios Genéricos
+  - Utilização de uma abordagem Híbrida, permitindo abstrair operações de CRUD comuns em repositórios genéricos e ao mesmo tempo ter operações específicas em repositórios especificos
+
+
